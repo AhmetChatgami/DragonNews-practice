@@ -6,10 +6,10 @@ const Header = () => {
     <div className="justify-center items-center flex-col flex">
       <img src={logo} alt="" />
 
-      <div className="py-3">
+      <div className="py-3 flex-1">
         <p className="text-accent">Journalism With Fear & Dor</p>
 
-        <p>{format(new Date(), "EEEE, MMMM MM, yyyy")}</p>
+        <p className="text-xl">{format(new Date(), "EEEE, MMMM MM, yyyy")}</p>
       </div>
     </div>
   );
