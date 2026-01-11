@@ -7,7 +7,7 @@ const Header = () => {
       <img src={logo} alt="" />
 
       <div className="py-3">
-        <p className="text-accent p-2">Journalism With Fear & Dor</p>
+        <p className="text-accent">Journalism With Fear & Dor</p>
 
         <p>{format(new Date(), "EEEE, MMMM MM, yyyy")}</p>
       </div>
