@@ -1,12 +1,14 @@
 import React from 'react';
 import SocialLogin from './SocialLogin';
 import FindUs from './FindUs';
+import Qzone from './Qzone';
 
 const RightAside = () => {
     return (
         <div>
             <SocialLogin className="space-y-8"></SocialLogin>
             <FindUs></FindUs>
+            <Qzone></Qzone>
         </div>
     );
 };
